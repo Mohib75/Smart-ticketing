@@ -24,6 +24,7 @@
 </head>
 
 <body class="font-raleway">
+    <!-- navbar -->
     <nav class="container mx-auto">
         <div class="navbar px-4 lg:px-0 pt-8">
             <div class="navbar-start">
@@ -66,6 +67,7 @@
         </div>
     </nav>
 
+    <!-- banner -->
     <header class="container mx-auto mt-8 relative">
         <div
             class="bg-bg-1 w-full h-[60vh] bg-no-repeat bg-cover bg-center rounded-[32px] text-center flex flex-col items-center">
@@ -86,7 +88,8 @@
             </div>
 
             <div class="grid grid-cols-3 gap-8 absolute -bottom-[68px]">
-                <div class="flex items-center bg-white border-solid border-[3px] border-[#1dd100] rounded-3xl p-8">
+                <div
+                    class="flex items-center bg-white border-solid border-[3px] border-[#1dd100] rounded-3xl p-8 gap-2">
                     <img src="./Assets/images/people.png" alt="people">
                     <div class="flex flex-col">
                         <h3 class="text-4xl font-bold leading-10 text-black">500K+</h3>
@@ -94,7 +97,8 @@
                     </div>
                 </div>
 
-                <div class="flex items-center bg-white border-solid border-[3px] border-[#1dd100] rounded-3xl p-8">
+                <div
+                    class="flex items-center bg-white border-solid border-[3px] border-[#1dd100] rounded-3xl p-8 gap-2">
                     <img src="./Assets/images/ticket-cupon.png" alt="coupon">
                     <div class="flex flex-col">
                         <h3 class="text-4xl font-bold leading-10 text-black">1.7 lacks</h3>
@@ -102,7 +106,8 @@
                     </div>
                 </div>
 
-                <div class="flex items-center bg-white border-solid border-[3px] border-[#1dd100] rounded-3xl p-8">
+                <div
+                    class="flex items-center bg-white border-solid border-[3px] border-[#1dd100] rounded-3xl p-8 gap-2">
                     <img src="./Assets/images/stoppage.png" alt="stoppage">
                     <div class="flex flex-col">
                         <h3 class="text-4xl font-bold leading-10 text-black">80K+</h3>
@@ -112,6 +117,55 @@
             </div>
         </div>
     </header>
+
+    <!-- offer section -->
+    <main class="container mx-auto">
+        <div class="flex flex-col items-center mt-40">
+            <h2 class="text-4xl font-bold leading-10">Best offers for you</h2>
+
+            <div class="flex gap-8 mt-20">
+                <div class="flex justify-around items-center rounded-3xl bg-[#FFBF0F] relative min-w-[573px] h-[220px]">
+                    <div class="flex flex-col gap-4">
+                        <h2 class="text-4xl font-extrabold text-black">15% OFF</h2>
+                        <p class="text-xl font-semibold text-black">on your next purchase</p>
+                        <p class="text-lg leading-7 text-[#03071299]">use by January 2024</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="text-xl font-semibold text-black">NEW15</h2>
+                        <p class="text-lg leading-7 text-[#03071299]">Coupon Code</p>
+                    </div>
+
+                    <div class="absolute right-[35%] transform -translate-x-[35%]">
+                        <img src="./Assets/images/cupon-devider.png" alt="">
+                    </div>
+                </div>
+
+                <div class="flex justify-around items-center rounded-3xl bg-[#F78C9C] relative min-w-[573px] h-[220px]">
+                    <div class="flex flex-col gap-4">
+                        <h2 class="text-4xl font-extrabold text-black">20% OFF</h2>
+                        <p class="text-xl font-semibold text-black">on your next purchase</p>
+                        <p class="text-lg leading-7 text-[#03071299]">use by January 2024</p>
+                    </div>
+
+                    <div class="flex flex-col items-center">
+                        <h2 class="text-xl font-semibold text-black">Couple 20</h2>
+                        <p class="text-lg leading-7 text-[#03071299]">Coupon Code</p>
+                    </div>
+
+                    <div class="absolute right-[35%] transform -translate-x-[35%]">
+                        <img src="./Assets/images/cupon-devider.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <button
+                class="btn bg-white border-solid border-[1px] border-[#1DD100] rounded-xl text-[#1DD100] hover:bg-[#FF4240] hover:border-none hover:scale-105 transform transition-all duration-500 w-32 mt-16">See
+                All Offers</button>
+        </div>
+
+
+    </main>
 </body>
 
 </html>
