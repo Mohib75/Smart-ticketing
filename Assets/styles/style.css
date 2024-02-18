@@ -8,3 +8,18 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+.seat-class {
+	color: rgba(3, 7, 18, 0.6);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+.disabled {
+	pointer-events: none;
+}
+
+button:disabled {
+	opacity: 0.3;
+}
