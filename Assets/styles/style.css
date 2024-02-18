@@ -3,3 +3,8 @@
 .font-raleway {
 	font-family: "Raleway", sans-serif;
 }
+
+.selected-seats-div {
+	display: flex;
+	justify-content: space-between;
+}
